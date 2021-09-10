@@ -1,0 +1,15 @@
+server:
+  port: 7612
+
+mock:
+  server:
+    version: 1.0.0 Beat
+
+
+knife4j:
+  enable: true
+  documents:
+    -
+      group: 1.0.0
+      name: 自定义文档
+      locations: classpath:markdown/*
