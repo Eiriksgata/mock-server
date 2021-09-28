@@ -81,13 +81,6 @@ public class ClientPushChannel {
         if (message.equals("")) {
             return;
         }
-        System.out.println(message);
-//        CommonHandler commonHandler = SpringContextUtil.getBean(CommonHandler.class);
-//        try {
-//            commonHandler.verification(this, message);
-//        } catch (Exception e) {
-//            return;
-//        }
     }
 
 
